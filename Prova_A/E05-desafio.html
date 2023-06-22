@@ -8,12 +8,16 @@
     */
 
     //ENTRADA
-
-
+    const salario = Number (prompt(`insira qual é o seu salário fixo`).replace(",","."));
+    const carros = Number (prompt(`insira quantos carros foram vendidos`).replace(",,","."));
     //PROCESSAMENTO
-
+    const conta1 = carros * 300;
+    const conta2 = conta1 + salario; 
+    const conta3 = 5/100;
+    const conta4 = conta1 + conta2 + conta3;
+    const conta5 = conta4 - 27/100;
 
     //SAÍDA
-
+    Alert (`seu salário final será ${conta5}`);
 
 </script>
